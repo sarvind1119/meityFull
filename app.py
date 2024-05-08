@@ -17,7 +17,7 @@ region = 'us-east-1'
 
 spec = ServerlessSpec(cloud=cloud, region=region)
 
-index_name = 'meity5'
+index_name = 'arvind1'
 
 # get openai api key from platform.openai.com
 OPENAI_API_KEY =  os.environ.get('OPENAI_API_KEY')
