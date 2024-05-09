@@ -29,13 +29,6 @@ embed = OpenAIEmbeddings(
     openai_api_key=OPENAI_API_KEY
 )
 
-#query = "who was Benito Mussolini?"
-
-# vector_store.similarity_search(
-#     query,  # our search query
-#     k=3  # return 3 most relevant docs
-# )
-
 from langchain.vectorstores import Pinecone
 
 text_field = "text"
@@ -115,21 +108,6 @@ with st.sidebar:
 #     #st.title("Question and Answering App powered by LLM and Pinecone")
 
 #     text_input = st.text_input("Ask your query...") 
-#     if st.button("Ask Query"):
-#         if len(text_input)>0:
-#             #st.info("Your Query: " + text_input)
-#             #answer = qa_with_sources(text_input)
-#             #st.success(answer)
-#             answer = ask_and_get_answer(vectorstore,text_input)
-#             st.success(answer)
-#             #st.success(answer['result'])
-#             #st.success(answer['Reference:\n'])
-
-# if __name__ == "__main__":
-#     main()
-#import streamlit as st
-#from your_module import ask_and_get_answer, vectorstore  # Assuming 'vectorstore' is initialized in 'your_module.py'
-
 def display_answer(answer):
     st.write("### Query")
     st.write(answer['query'])
