@@ -93,12 +93,16 @@ query="Give the key points of TwelfthFiveYearPlan2012-17"
 with st.sidebar:
     st.title('💬 LLM Chat App on MoTA Twelfth Five Year Plan(2012–2017) Social Sectors...')
     st.markdown('''
+        st.title('💬 LLM Chat App on Meity Annual reports...')
+    st.markdown('''
     ## About
-    This GPT helps in answering questions related to annual reports of MEITY from year 2017 to 2023
+    TThis Bot is trained to answer questions related to MEITY. 
+    It is trained on Annual reports 2017 to 2023. Also, it is trained on IT Act 2000, IT amendment act , 
+    DPDP (Digital Protection Data Protection) act , FAQ_Intermediary_Rules_2021 and Jan_Vishwas_Act_2023.
 
 
 
-    [Documents Repository](https://drive.google.com/file/d/1FKRqgTYPW5BdjTGiLbSyvFbNNshMXiB3/view?usp=drive_link)
+    [Documents Repository](https://drive.google.com/drive/folders/12CviwBib5xdWy3pW5trrOJxPbZFht2cn?usp=sharing)
  
     ''')
     #add_vertical_space(5)
