@@ -84,4 +84,4 @@ def insert_or_fetch_embeddings(index_name, chunks):
         
     return vector_store
 
-vector_store = insert_or_fetch_embeddings(index_name='meity5', chunks=docs)
+vector_store = insert_or_fetch_embeddings(index_name='meity5924', chunks=docs)
